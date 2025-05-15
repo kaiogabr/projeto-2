@@ -1,0 +1,23 @@
+:root{
+    --cor-principal:#FFF3F3;
+    --cor-secundaria:#DA1111;
+    --cor-de-fubdo:#303030;
+    --cor-botao:#167BF7;
+
+}
+body{
+    background-color: var(--cor-de-fubdo);
+    color: var(--cor-principal);
+}
+.container{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao{
+    background-color:var(--cor-botao);
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--cor-principal);
+    display: block;
+}
