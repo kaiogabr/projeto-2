@@ -1,7 +1,7 @@
 :root{
     --cor-principal:#FFF3F3;
     --cor-secundaria:#DA1111;
-    --cor-de-fubdo:#303030;
+    --cor-de-fubdo:#000000;
     --cor-botao:#167BF7;
 
 }
@@ -10,14 +10,27 @@ body{
     color: var(--cor-principal);
 }
 .container{
-    height: 40vh;
+    height: 30vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.principal{
+    background-image: url(image\ 16.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    
 }
 .container_botao{
     background-color:var(--cor-botao);
     border-radius: 20px;
     padding: 1em;
     color: var(--cor-principal);
+    display: inline;
+}
+.container_txto{
+    color: var(--cor-secundaria);
+    height: 10vh;
     display: block;
+    font-size: 35px;
 }
