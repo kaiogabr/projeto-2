@@ -1,7 +1,7 @@
 :root{
     --cor-principal:#FFF3F3;
     --cor-secundaria:#DA1111;
-    --cor-de-fubdo:#000000;
+    --cor-de-fubdo:#352e2e;
     --cor-botao:#167BF7;
 
 }
@@ -17,7 +17,7 @@ body{
 .principal{
     background-image: url(image\ 16.png);
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 20%;
     background-position: right;
     
 }
@@ -33,4 +33,12 @@ body{
     height: 10vh;
     display: block;
     font-size: 35px;
+}
+.segunda_imagem{
+    padding-top: 140px;
+    border-radius: 20px;
+}
+.descricao_titulo{
+    padding-top: 250px;
+
 }
